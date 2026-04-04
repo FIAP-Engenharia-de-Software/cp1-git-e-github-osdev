@@ -16,3 +16,14 @@ A Social Connect é uma plataforma do setor automotivo focada na divulgação e 
 * Vinicius Di Tulio Gomes Silva – RM: 573019
 
 ---
+
+## 🛠️ Tecnologias Utilizadas
+* **HTML5**
+* **CSS3**
+* **Git & GitHub**
+
+---
+
+## 🌐 Acesse o Projeto
+
+👉 https://fiap-engenharia-de-software.github.io/cp1-git-e-github-osdev/

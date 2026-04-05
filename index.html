@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Social Connect</title>
     <style>
         body {
@@ -13,7 +14,7 @@
         }
 
         header {
-            background-color: red;
+            background-color: #2980b9;
             color: #fff;
             padding: 10px;
             text-align: center;
@@ -62,7 +63,7 @@
 
 
         footer {
-            background-color: red;
+            background-color: #2980b9;
             color: #fff;
             text-align: center;
             padding: 30px;
@@ -78,14 +79,37 @@
             display: flex;
             flex-direction: column;
         }
+        .footer-redes {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+.footer-redes h3 {
+  margin-bottom: 10px;
+  color: #2980b9;
+}
+
+.footer-redes a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.footer-redes a:hover {
+  color: #1f6391;
+}
+
     </style>
 </head>
 <body>
     <header>
-        <img src="imagens/logo.png" alt="Logo Social Connect"/>
+        <img src="imagens/logo-social-connect.png" alt="Logo Social Connect"/>
         <nav>
             <ul>
                 <li><a href="#">Início</a></li>
+                <li><a href="#">Projetos</a></li>
                 <li><a href="#">Sobre nós</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
@@ -94,28 +118,59 @@
     <main>
         <section>
             <h2>Sobre nós</h2>
-            <p>A Social Connect é uma empresa inovadora que te conecta com as pessoas certas.</p>
-            <p>Nossa plataforma oferece usuários com objetivos e preferência semelhantes a suas, focando na satisfação completa do cliente</p>
+    <section>
+       <h2>Sobre nós</h2>
+       <p>A Social Connect é uma empresa inovadora que te conecta com as pessoas certas.</p>
+        <p>Nossa plataforma oferece usuários com objetivos e preferências semelhantes às suas, focando na satisfação completa do cliente.</p>
+    </section>
         </section>
         <section>
             <h2>Nossa Equipe</h2>
-            <p>Nossa equipe é capacitada por unir conhecimento, organização e trabalho em equipe, garantindo soluções eficientes e resultados de qualidade. Os colaboradores se destacam pela responsabilidade, proatividade, criatividade e boa comunicação, contribuindo para um trabalho eficiente e de qualidade.</p>
+            <p>A equipe da Social Connect é ...</p>
             <img src="imagens/equipe.jpg" alt="Nossa Equipe">
-        </section>
-        <section>
-            <h2>Aqui deve conter uma seção de Contato</h2>
-            <p>xxxxxxxxxx</p>
-            <p>xxxxxxxxxx</p>
-            <p>xxxxxxxxxxx</p>
-        </section>
+    <section id="contato">
+    <h2>Contato</h2>
+
+    <p><strong>Telefone:</strong> (11) 99999-9999</p>
+    <p><strong>E-mail:</strong> contato@socialconnect.com</p>
+    <p><strong>Horário de atendimento:</strong> Segunda a Sexta - 08:00 às 18:00</p>
+
+    <h3>Envie uma mensagem</h3>
+
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
     </main>
     <footer>
         <section>
-        <p>&copy; 2021 Soia Cnnt. Tds s dritos rsedos.</p>
+        <p>&copy; 2026 Social Connect. Todos os direitos reservados.</p>
         </section>
         <section id="socialmedia">
             <span>xxxxx</span>
             <span>xxxxxx</span>
+        <div class="footer-redes">
+
+<div class="footer-redes">
+  <h3>Nos siga</h3>
+
+  <a href="https://www.linkedin.com" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+
+  <a href="https://www.instagram.com" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+</div>
         </section>
     </footer>
 </body>

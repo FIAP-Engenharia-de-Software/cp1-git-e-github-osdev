@@ -1,3 +1,29 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/NKojeNXW)
-# Case-Social-Connect
-Repositório que servirá como 1º Checkpoint da disciplina de WebDev da FIAP
+# 🏎️ Social Connect - Checkpoint 1
+## 👥 Grupo: Os Dev | 🎓 Turma: 1ESPX
+
+---
+
+## 📖 Sobre o Projeto
+A Social Connect é uma plataforma do setor automotivo focada na divulgação e personalização de veículos elétricos de alta performance, unindo sustentabilidade e tecnologia.
+
+---
+
+## 👨‍💻 Integrantes
+* Felipe Romano de Paula Souza – RM: 571653
+* Ryan Romagnoli Santos – RM: 568845
+* Nicole Barbosa Oliveira de Lima – RM: 569505
+* Lucas Zarantonelli Lourenço – RM: 569164
+* Vinicius Di Tulio Gomes Silva – RM: 573019
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+* **HTML5**
+* **CSS3**
+* **Git & GitHub**
+
+---
+
+## 🌐 Acesse o Projeto
+
+👉 https://fiap-engenharia-de-software.github.io/cp1-git-e-github-osdev/
